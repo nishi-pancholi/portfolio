@@ -13,7 +13,7 @@ const app = express();
 
 // CORS configuration to allow requests from frontend URL set in the .env
 const corsOptions = {
-  origin: process.env.NEXT_PUBLIC_FRONTEND_URL|| "*", // Use the Vercel frontend URL from the .env or fallback to localhost
+  origin: process.env.NEXT_PUBLIC_FRONTEND_URL, // Use the Vercel frontend URL from the .env or fallback to localhost
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"], // Allow Authorization header for JWT
 };
