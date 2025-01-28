@@ -1,10 +1,9 @@
 // backend/src/controllers/emailController.ts
 import nodemailer from "nodemailer";
-import { Request, Response } from "express";
-import { Email } from "../models/Email";
+import { VercelRequest, VercelResponse } from "@vercel/node";
 
-export const sendEmail = async (req: Request, res: Response) => {
-  const { name, email, subject, message }: Email = req.body;
+export const sendEmail = async (req: VercelRequest, res: VercelResponse) => {
+  const { name, email, subject, message }: { name: string; email: string; subject: string; message: string } = req.body;
 
   // Configure Nodemailer
   const transporter = nodemailer.createTransport({
