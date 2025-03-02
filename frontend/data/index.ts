@@ -202,13 +202,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/nishi-pancholi?tab=repositories",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/nishi-pancholi",
   },
 ];
