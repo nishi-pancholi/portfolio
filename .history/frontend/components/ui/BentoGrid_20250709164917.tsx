@@ -79,7 +79,7 @@ export const BentoGridItem = ({
   // Function to handle downloading the resume
   const handleDownloadResume = () => {
     // Replace with the actual path to your resume file
-    const resumeLink = '/Nishi Pancholi.pdf'; 
+    const resumeLink = '/SDE_Resume.pdf'; 
     const link = document.createElement("a");
     link.href = resumeLink;
     link.download = "NishiPancholiResume.pdf"; // Set the default name for the downloaded file
