@@ -13,12 +13,12 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/nsp.jpg",
     spareImg: "",
   },
   {
     id: 2,
-    title: "Currently based in Boston, open to new opportunities.",
+    title: "Currently based in New York, open to new opportunities.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Full Stack Developer with 3+ years of experience.",
+    title: "Full Stack Developer with 2+ years of experience.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -98,76 +98,10 @@ export const projects = [
   {
     id: 4,
     title: "Cloud Hosted Web Application",
-    des: "Implemented a web application to execute healthy RestAPI and deployed it on AWS EC2 instances with connection to RDS, CloudWatch Alarms, Logs and Matrix with Load Balancer and hosted the application on a domain.",
+    des: "Deployed scalable backend on AWS with REST APIs, IaC via Pulumi, CI/CD with GitHub Actions, auto-scaling EC2, event-driven Lambda workflows, and automated alerts via CloudWatch and SNS.",
     img: "/p4.svg",
     skills: ["AWS", "EC2", "RDS", "NodeJs", "Rest API", "Pulumi"],
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
@@ -180,7 +114,7 @@ export const workExperience = [
     startDate: "Jan 2024",
     endDate: "Sep 2024",
     skills: ["React", "Node", "Php","Django","AWS"],
-    desc: "Developed and launched a transformative website for the grooming industry, starting with PHP and Laravel for backend development, incorporating Django for specific microservices, and later transitioning to the MERN stack to improve scalability and maintainability. Seamlessly integrated Laravel APIs and Django-based microservices with a modern Node.js and React frontend, enhancing user experience and platform functionality across desktop and mobile. Designed and implemented a custom algorithm for personalized booking, driving a 25% increase in customer engagement and enhancing user satisfaction. Leveraged AWS services, including EC2 and RDS, to enhance scalability, system reliability, and cloud integration, contributing to the platform’s high availability.",
+    desc: "Rebuilt PHP platform to MERN stack with GraphQL for a grooming startup, optimized backend latency by 5x, and led Agile dev with real-time features, Python scheduling, and automation.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -192,7 +126,7 @@ export const workExperience = [
     startDate: "Jan 2021",
     endDate: "Dec 2022",
     skills: ["Angular", "NodeJS", "Express","Vue.js", "Mongodb", "Git", "FastAPI"],
-    desc: "Engineered a scalable digital asset management system for a prominent production house using a robust tech stack including MongoDB, PostgreSQL, React, React Native, Express.js, and Node.js. Implemented highly efficient APIs with RESTful services and GraphQL, ensuring seamless data retrieval and integration with frontend systems. Conducted extensive unit testing and optimization, enabling the system to efficiently manage and organize 6.3 million articles, images, layouts, videos, and audio files across 279 publications, improving asset accessibility and operational efficiency.",
+    desc: "Built scalable portals using React Native and Java REST APIs, optimized DBs for 6.3M+ assets, enforced secure auth with Okta, and drove CI/CD, TDD, and cross-functional solution design to cut costs and boost delivery speed.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
